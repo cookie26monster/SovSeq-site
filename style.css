@@ -1,49 +1,123 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1F4D3A;
+    color: #E8E0D2;
 }
 
 header {
-    background-color: #222;
-    padding: 20px;
+    background-color: #163B2D;
+    background-image: linear-gradient(
+        rgba(22, 59, 45, 0.55),
+        rgba(22, 59, 45, 0.55)
+    ),
+    url("banner2.jpg");
+
+    background-size: cover;
+    background-position: center;
+    padding: 35px 20px 20px;
     text-align: center;
 }
 
+.logo {
+    font-size: 46px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin-bottom: 18px;
+
+    color: #C58A78;
+
+    text-shadow:
+        0 -1px 0 #F0C9BA,
+        1px 1px 0 #6B3D32,
+        -1px 1px 0 #6B3D32,
+        1px -1px 0 #6B3D32,
+        -1px -1px 0 #6B3D32,
+        2px 3px 0 #59352D,
+        4px 6px 10px rgba(0, 0, 0, 0.85);
+}
+
 header a {
-    color: white;
+    color: #E8E0D2;
     text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
+    margin: 0 18px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
 }
 
 header a:hover {
-    color: #4da6ff;
+    color: #C58A78;
+    border-bottom: 1px solid #C58A78;
 }
 
 main {
     max-width: 900px;
-    margin: 50px auto;
+    margin: 70px auto;
     padding: 20px;
-    background-color: white;
     text-align: center;
 }
 
 h1 {
-    color: #222;
+    color: #C58A78;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 52px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+p {
+    color: #E8E0D2;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 .button {
     display: inline-block;
-    padding: 12px 25px;
-    background-color: #0077cc;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+    background-color: #C58A78;
+    color: #163B2D;
+    padding: 12px 22px;
     margin: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .button:hover {
-    background-color: #005fa3;
+    background-color: #D5A696;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 25px 10px 15px;
+    }
+
+    .logo {
+        font-size: 36px;
+        letter-spacing: 6px;
+    }
+
+    header a {
+        display: inline-block;
+        margin: 8px 7px;
+        font-size: 15px;
+    }
+
+    main {
+        margin: 40px auto;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
 }
