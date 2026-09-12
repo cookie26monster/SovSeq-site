@@ -62,17 +62,21 @@ main {
 }
 
 h1 {
-    color: #C58A78;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 52px;
-    font-weight: 600;
-    letter-spacing: 1px;
+color: #C58A78;
+font-family: 'Cormorant Garamond', serif;
+font-size: 52px;
+font-weight: 600;
+letter-spacing: 1px;
+text-shadow:
+1px 1px 0 #E8C7BC,
+2px 2px 4px rgba(0, 0, 0, 0.90);
 }
 
 p {
     color: #E8E0D2;
     font-size: 18px;
     line-height: 1.6;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.55);
 }
 
 .button {
@@ -120,4 +124,26 @@ p {
         font-size: 17px;
     }
 
+}
+
+h2 {
+color: #C58A78;
+font-family: 'Cormorant Garamond', serif;
+font-size: 30px;
+font-weight: 500;
+letter-spacing: 2px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.60);
+margin-top: -10px;
+margin-bottom: 18px;
+}
+
+h3 {
+color: #C58A78;
+font-family: 'Cormorant Garamond', serif;
+font-size: 30px;
+font-weight: 500;
+letter-spacing: 2px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.60);
+margin-top: -10px;
+margin-bottom: 18px;
 }
