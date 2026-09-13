@@ -147,3 +147,26 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.60);
 margin-top: -10px;
 margin-bottom: 18px;
 }
+
+.logo-area img {
+    width: 90px;
+    height: auto;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .logo-area {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo-area img {
+        width: 70px;
+    }
+}
