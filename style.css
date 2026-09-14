@@ -149,7 +149,7 @@ margin-bottom: 18px;
 }
 
 .logo-area img {
-    width: 90px;
+    width: 180px;
     height: auto;
 }
 
@@ -167,6 +167,6 @@ margin-bottom: 18px;
     }
 
     .logo-area img {
-        width: 70px;
+        width: 180px;
     }
 }
