@@ -107,7 +107,7 @@ p {
 
     header a {
         display: inline-block;
-        margin: 8px 7px;
+        margin: 17px 7px;
         font-size: 15px;
     }
 
@@ -149,7 +149,7 @@ margin-bottom: 18px;
 }
 
 .logo-area img {
-    width: 180px;
+    width: 220px;
     height: auto;
 }
 
@@ -160,13 +160,18 @@ margin-bottom: 18px;
     gap: 20px;
 }
 
+.logo {
+    transform: translateY(30px);
+}
+
 @media (max-width: 768px) {
     .logo-area {
         flex-direction: column;
-        gap: 10px;
+        gap: 0px;
     }
 
     .logo-area img {
-        width: 180px;
+        width: 200px;
+         transform: translateX(-10px);
     }
 }
