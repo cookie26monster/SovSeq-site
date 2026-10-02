@@ -114,7 +114,7 @@ p {
 
     main {
         margin: 40px auto;
-        padding: 15px;
+        padding: 0px;
     }
 
     h1 {
@@ -179,7 +179,7 @@ margin-bottom: 18px;
 
     @media (max-width: 600px) {
     main {
-        padding-top: 70px;
+        padding-top: 0px;
     }
 }
 
@@ -211,5 +211,11 @@ footer a:hover {
         color: #c99572 !important;
         display: inline-block !important;
         margin: 0 15px !important;
+    }
+}
+
+@media (max-width: 1200px) and (orientation: landscape) {
+    header nav {
+        margin-top: 0px;
     }
 }
