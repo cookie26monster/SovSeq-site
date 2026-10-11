@@ -24,8 +24,9 @@ header {
     font-weight: bold;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 10px;
-    margin-bottom: 18px;
-
+    margin-top: 0px;
+    margin-bottom: 2mm;
+    transform: none;
     color: #C58A78;
 
     text-shadow:
@@ -55,6 +56,10 @@ header a:hover {
     border-bottom: 1px solid #C58A78;
 }
 
+header nav {
+    margin-top: 2mm;
+}
+
 main {
     max-width: 900px;
     margin: 70px auto;
@@ -68,8 +73,9 @@ font-family: 'Cormorant Garamond', serif;
 font-size: 52px;
 font-weight: 600;
 letter-spacing: 1px;
+
 text-shadow:
-1px 1px 0 #E8C7BC,
+1px 1px 0 #062e01,
 2px 2px 4px rgba(0, 0, 0, 0.90);
 }
 
@@ -93,38 +99,6 @@ p {
 
 .button:hover {
     background-color: #D5A696;
-}
-
-@media (max-width: 600px) {
-
-    header {
-        padding: 25px 10px 15px;
-    }
-
-    .logo {
-        font-size: 36px;
-        letter-spacing: 6px;
-    }
-
-    header a {
-        display: inline-block;
-        margin: 17px 7px;
-        font-size: 15px;
-    }
-
-    main {
-        margin: 40px auto;
-        padding: 0px;
-    }
-
-    h1 {
-        font-size: 40px;
-    }
-
-    p {
-        font-size: 17px;
-    }
-
 }
 
 h2 {
@@ -152,6 +126,7 @@ margin-bottom: 18px;
 .logo-area img {
     width: 220px;
     height: auto;
+    transform: translateY(-25px);
 }
 
 .logo-area {
@@ -159,10 +134,6 @@ margin-bottom: 18px;
     align-items: center;
     justify-content: center;
     gap: 20px;
-}
-
-.logo {
-    transform: translateY(30px);
 }
 
 @media (max-width: 768px) {
@@ -177,10 +148,36 @@ margin-bottom: 18px;
     }
 }
 
-    @media (max-width: 600px) {
-    main {
-        padding-top: 0px;
+@media (max-width: 600px) {
+
+    header {
+        padding: 25px 10px 15px;
     }
+
+    .logo {
+        font-size: 36px;
+        letter-spacing: 6px;
+    }
+
+    header a {
+        display: inline-block;
+        margin: 0px 7px;
+        font-size: 15px;
+    }
+
+    main {
+        margin: 40px auto;
+        padding: 0px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
 }
 
 footer {
@@ -216,6 +213,6 @@ footer a:hover {
 
 @media (max-width: 1200px) and (orientation: landscape) {
     header nav {
-        margin-top: 0px;
+        margin-top: 2mm;
     }
 }
